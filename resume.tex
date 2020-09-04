@@ -1,0 +1,70 @@
+% Format heavily inspired by 9a from https://www.rpi.edu/dept/arc/training/latex/resumes/
+\documentclass[margin]{res}
+\setlength{\textwidth}{5.1in}
+
+\begin{document}
+
+ \moveleft.5\hoffset\centerline{\huge\bf Nick Torres}
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+ \moveleft.5\hoffset\centerline{\texttt{nickrtorres@icloud} - \texttt{github.com/nickrtorres}}
+
+\begin{resume}
+
+\section{Education}
+                    {\sl Master of Science,} Computer Science \\
+                    California State University, Long Beach, expected Fall 2021 \\
+                    \\
+                    {\sl Bachelor of Science,} Computer Science \\
+                    California State University, Long Beach Spring 2018
+
+\section{Skills}
+                    {\sl Languages:} C++, Rust, python3, Java, shell (POSIX, bash), awk \\
+                    {\sl Technology:} Git, Subversion, Docker, Google Test, Boost, Qt \\
+                    {\sl Operating Systems:} Unix-like (GNU/Linux, macOS)        \\
+
+\section{Experience}
+                {\sl Software Engineer} \hfill May 2018 -- July 2020 \\
+                Safran Passenger Innovations, Brea, CA \\
+                Worked with a team to design, develop, document
+                and test software for an inflight entertainment system.
+                 \begin{itemize}
+                    \item Wrote correct libraries and applications in C++.
+                    \item Tested software at a unit and integration level.
+                    \item Documented software at all levels from high level
+                    overviews to API descriptions.
+                    \item Maintained systems to build and deploy software.
+                    \item Reviewed software, documentation, and tests written
+                    by other engineers.
+                \end{itemize}
+\section{Open Source}
+              {\sl \texttt{clippy} --- the Rust linter} \hfill \texttt{https://github.com/rust-lang/rust-clippy}
+                 \begin{itemize}
+                   \item Proposed and implemented a new lint to catch non-idiomatic use of
+                   \texttt{Result}---a common Rust sum type.
+                   \item Worked through the pull request process with the
+                   project maintainers to integrate the new lint into
+                   \texttt{clippy}.
+                   \item Contributed documentation fixes and updates.
+                 \end{itemize}
+\section{Projects}
+             {\sl \texttt{rlox} --- a Lox interpreter} \hfill \texttt{https://github.com/nickrtorres/rlox} \\
+             A work-in-progress port of \texttt{jlox}---Bob Nystrom's Lox interpreter
+             written for {\sl Crafting Interpreters} in Java.
+                 \begin{itemize}
+                   \item Ported the Java implementation of Lox's four-stage,
+                   tree walk interpreter to idiomatic Rust.
+                   \item Developed a test fixture that takes advantage of
+                   Rust's macro system to improve future extensibility.
+                 \end{itemize}
+
+             {\sl \texttt{program} --- a Rust implementation of \texttt{perror(3)}} \hfill \texttt{https://crates.io/crates/program}
+                 \begin{itemize}
+                   \item Developed a library that emulates \texttt{perror(3)}'s
+                   error handling in idiomatic Rust.
+                   \item Published crate on crates.io that can be pulled in as
+                   a dependency on any Rust project.
+                   \item Wrote documentation that explains the intricacies of
+                   the API and sets the expectations of developers.
+                 \end{itemize}
+\end{resume}
+\end{document}
