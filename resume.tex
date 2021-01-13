@@ -11,28 +11,33 @@
 \begin{resume}
 
 \section{Education}
-                    {\sl Master of Science,} Computer Science \\
+                    {\sl Master of Science,} Computer Science (GPA: 4.0) \\
                     California State University, Long Beach, expected Fall 2021 \\
                     \\
-                    {\sl Bachelor of Science,} Computer Science \\
-                    California State University, Long Beach Spring 2018
+                    {\sl Bachelor of Science,} Computer Science (GPA: 3.3) \\
+                    California State University, Long Beach, Spring 2018
 
 \section{Skills}
-                    {\sl Languages:} C++, Rust, python3, Java, shell (POSIX, bash), awk \\
-                    {\sl Technology:} Git, Subversion, Docker, Google Test, Boost, Qt \\
-                    {\sl Operating Systems:} Unix-like (GNU/Linux, macOS) \\
+                    {\sl Languages:} Rust, C++, python3, Java, shell (POSIX, bash) \\
+                    {\sl Technology:} Git, Subversion, Docker, Google Test \\
+                    {\sl Operating Systems:} \textit{Unix-like} (GNU/Linux, macOS) \\
 
 \section{Experience}
+                {\sl Instructional Student Assistant} \hfill November 2020 -- Present \\
+                Assists undergraduate computer science students with concepts
+                and projects from all classes throughout the undergraduate
+                curriculum such as programming languages, operating systems,
+                and analysis of algorithms.
+
                 {\sl Software Engineer} \hfill May 2018 -- July 2020 \\
                 Safran Passenger Innovations, Brea, CA \\
-                Worked with a team to design, develop, document
-                and test software for an inflight entertainment system.
+                Worked with a team to design, develop, document, and test
+                software for an inflight entertainment system.
                  \begin{itemize}
                     \item Wrote correct libraries and applications in C++.
                     \item Tested software at the unit and integration levels.
                     \item Documented software at all levels from high level
                     overviews to API descriptions.
-                    \item Maintained systems to build and deploy software.
                     \item Reviewed software, documentation, and tests written
                     by other engineers.
                 \end{itemize}
@@ -47,24 +52,17 @@
                    \item Contributed documentation fixes and updates.
                  \end{itemize}
 \section{Projects}
-             {\sl \texttt{rlox} --- a Lox interpreter} \hfill \texttt{https://github.com/nickrtorres/rlox} \\
-             A work-in-progress port of \texttt{jlox}---Bob Nystrom's Lox interpreter
-             written for {\sl Crafting Interpreters} in Java.
-                 \begin{itemize}
-                   \item Ported the Java implementation of Lox's four-stage,
-                   tree walk interpreter to idiomatic Rust.
-                   \item Developed a test fixture that takes advantage of
-                   Rust's macro system to improve future extensibility.
-                 \end{itemize}
+             {\sl \texttt{Bandera} --- an x86-16 bytecode VM} \hfill \texttt{https://github.com/nickrtorres/bandera}
+             A work-in-progress portable x86-16 bytecode virtual machine that
+             accepts \textit{MASM} flavored assembly language. Additionally, it accepts
+             a subset of DOS's \texttt{int 21h} interrupts -- namely those that
+             perform I/O. It uses a recursive descent parser to understand the
+             semantics of a \textit{MASM} assembly program and emits bytecode for that
+             file to run on its virtual machine.
 
-             {\sl \texttt{program} --- a Rust port of \texttt{perror(3)}} \hfill \texttt{https://crates.io/crates/program}
-                 \begin{itemize}
-                   \item Developed a library that emulates \texttt{perror(3)}'s
-                   error handling in idiomatic Rust.
-                   \item Published crate on crates.io that can be pulled in as
-                   a dependency on any Rust project.
-                   \item Wrote documentation that explains the intricacies of
-                   the API and sets the expectations of developers.
-                 \end{itemize}
+             {\sl \texttt{rlox} --- a Lox interpreter} \hfill \texttt{https://github.com/nickrtorres/rlox} \\
+             A work-in-progress rust port of \texttt{jlox}---Bob Nystrom's Lox interpreter
+             written for {\sl Crafting Interpreters}.
+
 \end{resume}
 \end{document}
