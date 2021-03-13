@@ -5,7 +5,7 @@
 .tex.pdf:
 	pdflatex -halt-on-error $<
 
-RESUME = resume
+RESUME = Nick-Torres-Resume
 
 $(RESUME): $(RESUME).pdf
 
