@@ -6,62 +6,70 @@
 
  \moveleft.5\hoffset\centerline{\huge\bf Nick Torres}
  \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
- \moveleft.5\hoffset\centerline{\texttt{nickrtorres@icloud.com} -- \texttt{github.com/nickrtorres}}
+ \moveleft.5\hoffset\centerline{\texttt{nickrtorres@icloud.com} -- \texttt{github.com/nickrtorres} -- \texttt{(714) 454 5058}}
 
 \begin{resume}
 
-\section{Education}
-                    {\sl Master of Science,} Computer Science (GPA: 4.0) \\
-                    California State University, Long Beach, expected Spring 2022 \\
-                    \\
-                    {\sl Bachelor of Science,} Computer Science \\
-                    California State University, Long Beach, Spring 2018
-
-\section{Skills}
-                    {\sl Languages:} Rust, C++, python3, Java, shell (POSIX, bash) \\
-                    {\sl Technology:} Git, Subversion, Docker, Google Test  \\
-                    {\sl Operating Systems:} \textit{Unix-like} (GNU/Linux, macOS) \\
-
 \section{Experience}
-                {\sl Instructional Student Assistant} \hfill November 2020 -- Present \\
+                {\sl Instructional Student Assistant} \hfill November 2020 --
+                April 2021 \\
                 California State University, Long Beach -- Long Beach, CA \\
-                Assists undergraduate computer science students with topics
+                Assisted undergraduate computer science students with topics
                 from classes throughout the undergraduate computer science
-                curriculum -- topics include programming languages, operating
+                curriculum -- topics included programming languages, operating
                 systems, and analysis of algorithms.
 
                 {\sl Software Engineer / Product Developer} \hfill May 2018 -- July 2020 \\
                 Safran Passenger Innovations -- Brea, CA\\
                 Worked with a team to design, develop, document, and test
-                software for an inflight entertainment system.
+                software for RAVE, a complete inflight entertainment system
+                including servers and hundreds of clients.
                  \begin{itemize}
-                    \item Wrote correct libraries and applications in C++.
-                    \item Tested software at the unit and integration levels.
+                    \item Wrote libraries, applications, and automated tests in C++.
+                    \item Created small utilities in python3 and shell to
+                    increase productivity.
                     \item Documented software at all levels from high level
                     overviews to API descriptions.
                     \item Reviewed software, documentation, and tests written
                     by other engineers.
+                    \item Developed interview procedures for future employees.
+                    \item Participated in all events of the Agile software development methodology.
+                    \item Attended certified scrum developer (CSD) training to
+                    learn the intricacies of test driven development and the
+                    importance of automated tests for developing maintainable
+                    software.
                 \end{itemize}
+
+\section{Education}
+                    {\sl Bachelor of Science,} Computer Science \\
+                    California State University, Long Beach, Spring 2018
+
+\section{Skills}
+                    {\sl Languages:} C++\{14, 17\}, python3, Rust, shell (POSIX, bash) \\
+                    {\sl Technology:} Git, Subversion, Docker, Google Test  \\
+                    {\sl Operating Systems:} \textit{Unix-like} (GNU/Linux, macOS) \\
+
 \section{Open Source}
-              {\sl \texttt{clippy} --- the Rust linter} \hfill \texttt{https://github.com/rust-lang/rust-clippy}
+              {\sl \texttt{clippy}} \hfill \texttt{https://github.com/rust-lang/rust-clippy/pull/5415}
                  \begin{itemize}
-                   \item Proposed and implemented a new lint to catch non-idiomatic use of
-                   \texttt{Result}---a common Rust sum type.
+                   \item Proposed and implemented a new lint to catch a non-idiomatic use of
+                   \texttt{Result}--a common Rust sum type.
                    \item Worked through the pull request process with the
                    project maintainers to integrate the new lint into
                    \texttt{clippy}.
                  \end{itemize}
-\section{Projects}
-             {\sl \texttt{Bandera} --- an x86-16 bytecode VM} \hfill \texttt{https://github.com/nickrtorres/bandera}
-             A work-in-progress portable x86-16 bytecode virtual machine that
-             accepts \textit{MASM} flavored assembly language. Additionally, it accepts
-             a subset of DOS's \texttt{int 21h} interrupts -- namely those that
-             perform I/O. It uses a recursive descent parser to understand the
-             semantics of a \textit{MASM} assembly program and emits bytecode for that
-             file to run on its virtual machine.
 
-             {\sl \texttt{rlox} --- a Lox interpreter} \hfill \texttt{https://github.com/nickrtorres/rlox} \\
-             A work-in-progress rust port of \texttt{jlox}---Bob Nystrom's Lox interpreter
+\section{Projects}
+             {\sl \texttt{Bandera}} \hfill \texttt{https://github.com/nickrtorres/bandera} \\
+             A portable x86-16 bytecode virtual machine that accepts a small
+             subset of \textit{MASM} flavored assembly language and DOS
+             \texttt{int 21h} interrupts -- namely those that perform I/O. It
+             uses a recursive descent parser to understand the semantics of a
+             \textit{MASM} assembly program and emits bytecode for that file to
+             run on its virtual machine.
+
+             {\sl \texttt{rlox}} \hfill \texttt{https://github.com/nickrtorres/rlox} \\
+             A rust port of \texttt{jlox}--Bob Nystrom's Lox interpreter
              written for {\sl Crafting Interpreters}.
 
 \end{resume}
